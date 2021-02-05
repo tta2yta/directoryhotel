@@ -1,16 +1,19 @@
 $myFont: Helvetica, sans-serif;
 $myColor: red;
 $myFontSize: 18px;
-$myWidth: 680px;
-$bg: red;
+$myWidth: 100%;
 
-body {
-  font-family: $myFont;
-  font-size: $myFontSize;
-  color: $myColor;
-}
 
-#container {
+#container-fluid {
   width: $myWidth;
 }
+header {
+    background-color: #c73364;
+
+    img {
+        background-color: #c73364;
+        color: wheat;
+    }
+}
+
 

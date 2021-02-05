@@ -1,12 +1,9 @@
-body {
-  font-family: Helvetica, sans-serif;
-  font-size: 18px;
-  color: red;
-  background-color: red;
+#container-fluid {
+  width: 100%;
 }
 
-#container {
-  width: 680px;
+header {
+  background-color: #c73364;
 }
 
 /*# sourceMappingURL=style.css.map */
