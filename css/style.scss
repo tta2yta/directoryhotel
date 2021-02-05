@@ -2,19 +2,41 @@ $myFont: Helvetica, sans-serif;
 $myColor: red;
 $myFontSize: 18px;
 $myWidth: 100%;
+$color-1:#c73364;
 
 
 #container-fluid {
   width: $myWidth;
 }
 header {
-    background-color: #c73364;
+    background-color: $color-1;
 }
 
 section.main-img-carsoul {
     img{
         max-height: 500px;
     }
+    input[type="text"],
+    input[type="submit"] {
+        height: 30px;
+      }
+      input[type="submit"] {
+        background-color: $color-1;
+      }
+      .coursel-header {
+        top: 30%;
+        left: 25%;
+      }
+
+      .search-sec {
+          top: 40%;
+          width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+          left: 25%;
+          display: block;
+          border-radius: 20px;
+      }
 }
 
 

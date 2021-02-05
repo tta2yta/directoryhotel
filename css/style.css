@@ -9,5 +9,26 @@ header {
 section.main-img-carsoul img {
   max-height: 500px;
 }
+section.main-img-carsoul input[type=text],
+section.main-img-carsoul input[type=submit] {
+  height: 30px;
+}
+section.main-img-carsoul input[type=submit] {
+  background-color: #c73364;
+}
+section.main-img-carsoul .coursel-header {
+  top: 30%;
+  left: 25%;
+  color: black;
+}
+section.main-img-carsoul .search-sec {
+  top: 40%;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 25%;
+  display: block;
+  border-radius: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
