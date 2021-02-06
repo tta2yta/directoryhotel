@@ -52,7 +52,7 @@ section.main-img-carsoul {
 .main-2-items,
 footer {
   max-width: 1000px;
-  @include marg-left-right(auto, auto )
+  @include marg-left-right(auto, auto );
 }
 
 .main-1 {
@@ -95,7 +95,12 @@ footer {
 
 footer {
 
-  @include marg-left-right(auto, auto )
+  @include marg-left-right(auto, auto );
+
+  .footer-top-1 {
+    display:grid;
+    grid-template-columns:45% 10% 45%; 
+  }
 }
 
 @media screen and (max-width: 1023.99px) {
