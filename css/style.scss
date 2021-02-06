@@ -7,6 +7,15 @@ $color-1:#c73364;
   height: $height;
 }
 
+@mixin marg-padd($val1, $val2) {
+  margin: $val1;
+  padding: $val2;
+}
+
+@mixin marg-left-right($val1, $val2) {
+  margin-left: $val1;
+  margin-right: $val2;
+}
 
 #container-fluid {
   width: $myWidth;
@@ -39,15 +48,17 @@ section.main-img-carsoul {
       }
 }
 
+.main-1-items,
+.main-2-items,
+footer {
+  max-width: 1000px;
+  @include marg-left-right(auto, auto )
+}
+
 .main-1 {
   h2{
     color: $color-1;
   }
- .main-1-items{
-   max-width: 1000px;
-   margin-left: auto ;
-   margin-right: auto;
- }
  img {
    @include width-height(30px, 30px);
  }
@@ -56,11 +67,6 @@ section.main-img-carsoul {
 .main-2 {
   img {
     @include width-height(200px, 200px);
-  }
-  .main-2-items {
-    max-width: 1000px;
-   margin-left: auto ;
-   margin-right: auto;
   }
 
   .btn-div {
@@ -85,6 +91,11 @@ section.main-img-carsoul {
   background-color: #5c32f5;
   }
 
+}
+
+footer {
+
+  @include marg-left-right(auto, auto )
 }
 
 @media screen and (max-width: 1023.99px) {

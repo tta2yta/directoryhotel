@@ -27,13 +27,16 @@ section.main-img-carsoul .search-sec {
   border-radius: 20px;
 }
 
-.main-1 h2 {
-  color: #c73364;
-}
-.main-1 .main-1-items {
+.main-1-items,
+.main-2-items,
+footer {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.main-1 h2 {
+  color: #c73364;
 }
 .main-1 img {
   width: 30px;
@@ -43,11 +46,6 @@ section.main-img-carsoul .search-sec {
 .main-2 img {
   width: 200px;
   height: 200px;
-}
-.main-2 .main-2-items {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .main-2 .btn-div {
   border: 1px solid;
@@ -66,6 +64,11 @@ section.main-img-carsoul .search-sec {
 }
 .main-2 .bg-3 {
   background-color: #5c32f5;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1023.99px) {
