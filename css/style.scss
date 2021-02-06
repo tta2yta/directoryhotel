@@ -1,8 +1,11 @@
 $myFont: Helvetica, sans-serif;
-$myColor: red;
-$myFontSize: 18px;
 $myWidth: 100%;
 $color-1:#c73364;
+
+@mixin width-height($width, $height) {
+  width: $width;
+  height: $height;
+}
 
 
 #container-fluid {
@@ -34,6 +37,24 @@ section.main-img-carsoul {
           display: block;
           border-radius: 20px;
       }
+}
+
+.main-1 {
+ .main-1-items{
+   margin-left: 10% ;
+   margin-right: 10%;
+ }
+ img, i {
+   @include width-height(30px, 30px)
+ }
+
+}
+
+@media screen and (max-width: 1023.99px) {
+  .main-1-items {
+    display: flex !important;
+    flex-direction: column !important;
+  }
 }
 
 

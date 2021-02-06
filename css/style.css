@@ -27,6 +27,21 @@ section.main-img-carsoul .search-sec {
   border-radius: 20px;
 }
 
+.main-1 .main-1-items {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.main-1 img, .main-1 i {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 1023.99px) {
+  .main-1-items {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
 @media screen and (max-width: 768px) {
   .search-sec {
     top: 150px;
