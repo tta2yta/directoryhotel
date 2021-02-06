@@ -40,14 +40,30 @@ section.main-img-carsoul {
 }
 
 .main-1 {
+  h2{
+    color: $color-1;
+  }
  .main-1-items{
-   margin-left: 10% ;
-   margin-right: 10%;
+   width: 1000px;
+   border: 1px solid;
+   margin-left: auto ;
+   margin-right: auto;
  }
- img, i {
-   @include width-height(30px, 30px)
+ img {
+   @include width-height(30px, 30px);
  }
+}
 
+.main-2 {
+  img {
+    @include width-height(200px, 200px);
+  }
+  .main-2-items {
+    width: 1000px;
+   border: 1px solid;
+   margin-left: auto ;
+   margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 1023.99px) {

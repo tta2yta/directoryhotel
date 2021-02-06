@@ -27,13 +27,29 @@ section.main-img-carsoul .search-sec {
   border-radius: 20px;
 }
 
-.main-1 .main-1-items {
-  margin-left: 10%;
-  margin-right: 10%;
+.main-1 h2 {
+  color: #c73364;
 }
-.main-1 img, .main-1 i {
+.main-1 .main-1-items {
+  width: 1000px;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-1 img {
   width: 30px;
   height: 30px;
+}
+
+.main-2 img {
+  width: 200px;
+  height: 200px;
+}
+.main-2 .main-2-items {
+  width: 1000px;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1023.99px) {
