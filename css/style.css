@@ -18,7 +18,7 @@ section.main-img-carsoul input[type=submit] {
   background-color: #c73364;
 }
 section.main-img-carsoul .search-sec {
-  top: 200px;
+  top: 150px;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -29,12 +29,16 @@ section.main-img-carsoul .search-sec {
 
 @media screen and (max-width: 768px) {
   .search-sec {
-    top: 200px;
+    top: 150px;
     left: 0 !important;
     width: 100% !important;
     padding: 0 20px;
     display: block;
     border-radius: 20px;
+  }
+
+  .how-it-work {
+    min-width: 120px;
   }
 }
 
