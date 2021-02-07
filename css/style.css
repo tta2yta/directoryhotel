@@ -42,6 +42,12 @@ footer {
   width: 30px;
   height: 30px;
 }
+.main-1 a {
+  text-decoration: none;
+}
+.main-1 i {
+  color: black;
+}
 
 .main-2 img {
   width: 200px;
