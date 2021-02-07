@@ -150,6 +150,12 @@ footer {
 
 
 @media screen and (max-width: 767.99px) {
+  section.main-img-carsoul {
+    img{
+        max-height: 700px;
+        min-height: 600px;
+    }
+  }
   .search-sec {
     top: 150px;
     left: 0 !important;
