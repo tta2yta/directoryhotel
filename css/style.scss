@@ -101,7 +101,8 @@ footer {
 
   .footer-top-1 {
     display:grid;
-    grid-template-columns:47% 6% 47%; 
+    grid-template-columns:47% 6% 47%;
+    font-size: 14px; 
   }
   i {
     color: white;
@@ -128,7 +129,7 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.99px) {
   .search-sec {
     top: 150px;
     left: 0 !important;
@@ -140,6 +141,26 @@ footer {
 
 .how-it-work {
   min-width: 120px;
+}
+
+.footer-top-1 {
+  display:flex !important;
+  flex-direction: column !important;
+  font-size: 12px !important; 
+
+  .footer-loc-icon {
+    border: none !important;
+  }
+
+  i {
+    border-radius: 50%;
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center !important;
+    vertical-align: middle !important;
+  }
 }
 
 }
