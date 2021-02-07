@@ -80,6 +80,10 @@ footer .footer-top-1 {
 footer i {
   color: white;
 }
+footer .footer-middle-sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 @media screen and (max-width: 1023.99px) {
   .main-1-items,
