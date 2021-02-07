@@ -1,4 +1,4 @@
-$myFont: Helvetica, sans-serif;
+$myFont: helvetica, sans-serif;
 $myWidth: 100%;
 $color-1:#c73364;
 
@@ -20,57 +20,67 @@ $color-1:#c73364;
 #container-fluid {
   width: $myWidth;
 }
+
 header {
-    background-color: $color-1;
-}
-
-section.main-img-carsoul {
-    img{
-        max-height: 500px;
-        min-height: 500px;
-    }
-    input[type="text"],
-    input[type="submit"] {
-        height: 30px;
-      }
-      input[type="submit"] {
-        background-color: $color-1;
-      }
-
-      .search-sec {
-          top: 150px;
-          max-width: 700px;
-          margin-left: auto;
-          margin-right: auto;
-          left: 25%;
-          display: block;
-          border-radius: 20px;
-      }
+  background-color: $color-1;
 }
 
 .main-1-items,
 .main-2-items,
 footer {
   max-width: 1000px;
+
   @include marg-left-right(auto, auto );
 }
 
+footer {
+  @include marg-left-right(auto, auto );
+
+  background-color: black;
+  color: white;
+
+  .footer-top-1 {
+    display: grid;
+    grid-template-columns: 47% 6% 47%;
+    font-size: 14px;
+  }
+
+  i {
+    color: white;
+  }
+
+  .footer-middle-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-1-items div:first-child {
+    margin-right: 200px;
+  }
+}
+
 .main-1 {
-  h2{
+  h2 {
     color: $color-1;
   }
+
   .main-1-item-1 {
     margin-right: 200px;
   }
- img {
-   @include width-height(30px, 30px);
- }
- a {
-  text-decoration: none;
- }
- i{
-   color: black;
- }
+
+  img {
+    @include width-height(30px, 30px);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  i {
+    color: black;
+  }
 }
 
 .main-2 {
@@ -81,50 +91,51 @@ footer {
   .btn-div {
     max-width: 120px;
   }
+
   .btn-div-1 {
     max-width: 200px;
   }
 
   .btn-div :hover {
-   text-decoration: none;
+    text-decoration: none;
   }
+
   .bg-1 {
-  background-color: $color-1;
+    background-color: $color-1;
   }
-  
+
   .bg-2 {
-  background-color: #937dbe;
+    background-color: #937dbe;
   }
 
   .bg-3 {
-  background-color: #5c32f5;
-  }
-
-}
-
-footer {
-
-  @include marg-left-right(auto, auto );
-  background-color: black;
-  color: white;
-
-  .footer-top-1 {
-    display:grid;
-    grid-template-columns:47% 6% 47%;
-    font-size: 14px; 
-  }
-  i {
-    color: white;
-  }
-  .footer-middle-sec {
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+    background-color: #5c32f5;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .main-1-items div:first-child{
-    margin-right: 200px;
+section.main-img-carsoul {
+  img {
+    max-height: 500px;
+    min-height: 500px;
+  }
+
+  input[type="text"],
+  input[type="submit"] {
+    height: 30px;
+  }
+
+  input[type="submit"] {
+    background-color: $color-1;
+  }
+
+  .search-sec {
+    top: 150px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 25%;
+    display: block;
+    border-radius: 20px;
   }
 }
 
@@ -134,67 +145,69 @@ footer {
     display: flex !important;
     flex-direction: column !important;
   }
+
   .main-1 {
     margin: 0 10%;
   }
 
   .main-2-items div {
-   width: 100% !important;
-   text-align: center !important;
+    width: 100% !important;
+    text-align: center !important;
   }
+
   .btn-div,
   .btn-div-1 {
     margin: 10px auto !important;
   }
 }
 
-
 @media screen and (max-width: 767.99px) {
   section.main-img-carsoul {
-    img{
-        max-height: 700px;
-        min-height: 600px;
+    img {
+      max-height: 700px;
+      min-height: 600px;
     }
   }
+
   .search-sec {
     top: 150px;
     left: 0 !important;
     width: 100% !important;
-   padding: 0 20px;
+    padding: 0 20px;
     display: block;
     border-radius: 20px;
-}
-
-.how-it-work {
-  min-width: 120px;
-}
-
-.footer-top-1 {
-  display:flex !important;
-  flex-direction: column !important;
-  font-size: 12px !important; 
-
-  .footer-loc-icon {
-    border: none !important;
   }
 
-  i {
-    border-radius: 50%;
-    border: 1px solid;
-    @include width-height(50px, 50px);
-    text-align: center !important;
-    vertical-align: middle !important;
+  .how-it-work {
+    min-width: 120px;
+  }
+
+  .footer-top-1 {
+    display: flex !important;
+    flex-direction: column !important;
+    font-size: 12px !important;
+
+    .footer-loc-icon {
+      border: none !important;
+    }
+
+    i {
+      border-radius: 50%;
+      border: 1px solid;
+
+      @include width-height(50px, 50px);
+
+      text-align: center !important;
+      vertical-align: middle !important;
+    }
+  }
+
+  .footer-middle-sec {
+    display: grid;
+    grid-template-columns: 1fr !important;
+
+    form div {
+      width: 100% !important;
+    }
   }
 }
-.footer-middle-sec {
-  display:grid;
-  grid-template-columns:1fr !important;
-
-  form div {
-  width: 100% !important;
-  }
-}
-
-}
-
-
