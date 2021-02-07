@@ -32,7 +32,7 @@ This project is a capstone project developed as a completion of HTML & CSS secti
 👤 **Tedros Tesfay**
 
 - Github: [Tedros Tesfay](https://github.com/tta2yta)
-- Emaii: tta2yta@gmail.com
+- Email: tta2yta@gmail.com
 
 👤
 
