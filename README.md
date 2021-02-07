@@ -1,2 +1,2 @@
 # directoryschool
-A capstone projcet
+A website application that helps to search hotels.
