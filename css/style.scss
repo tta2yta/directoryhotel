@@ -164,6 +164,14 @@ footer {
     vertical-align: middle !important;
   }
 }
+.footer-middle-sec {
+  display:grid;
+  grid-template-columns:1fr !important;
+
+  form div {
+  width: 100% !important;
+  }
+}
 
 }
 

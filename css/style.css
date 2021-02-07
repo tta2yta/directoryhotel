@@ -135,6 +135,14 @@ footer .footer-middle-sec {
     text-align: center !important;
     vertical-align: middle !important;
   }
+
+  .footer-middle-sec {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+  .footer-middle-sec form div {
+    width: 100% !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
