@@ -107,6 +107,10 @@ footer {
   i {
     color: white;
   }
+  .footer-middle-sec {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 1023.99px) {
@@ -155,9 +159,7 @@ footer {
   i {
     border-radius: 50%;
     border: 1px solid;
-    width: 50px;
-    height: 50px;
-    padding-top: 10px;
+    @include width-height(50px, 50px);
     text-align: center !important;
     vertical-align: middle !important;
   }
