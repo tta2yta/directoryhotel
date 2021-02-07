@@ -96,10 +96,15 @@ footer {
 footer {
 
   @include marg-left-right(auto, auto );
+  background-color: black;
+  color: white;
 
   .footer-top-1 {
     display:grid;
-    grid-template-columns:45% 10% 45%; 
+    grid-template-columns:47% 6% 47%; 
+  }
+  i {
+    color: white;
   }
 }
 
