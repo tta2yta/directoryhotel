@@ -54,7 +54,7 @@ footer {
   text-align: center;
 }
 .main-2 .btn-div :hover {
-  cursor: pointer;
+  text-decoration: none;
 }
 .main-2 .bg-1 {
   background-color: #c73364;
