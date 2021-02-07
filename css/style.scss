@@ -79,10 +79,10 @@ footer {
   }
 
   .btn-div {
-    border: 1px solid;
-    background-color: #af8b97;
     max-width: 120px;
-    text-align: center;
+  }
+  .btn-div-1 {
+    max-width: 200px;
   }
 
   .btn-div :hover {
@@ -142,11 +142,8 @@ footer {
    width: 100% !important;
    text-align: center !important;
   }
-  .btn-div {
-    max-width: 120px !important;
-    border: 1px solid;
-    argin: 10px auto;
-    background-color: #af8b97;
+  .btn-div,
+  .btn-div-1 {
     margin: 10px auto !important;
   }
 }
