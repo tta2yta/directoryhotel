@@ -38,6 +38,9 @@ footer {
 .main-1 h2 {
   color: #c73364;
 }
+.main-1 .main-1-item-1 {
+  margin-right: 200px;
+}
 .main-1 img {
   width: 30px;
   height: 30px;
@@ -91,11 +94,20 @@ footer .footer-middle-sec {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media screen and (min-width: 1024px) {
+  .main-1-items div:first-child {
+    margin-right: 200px;
+  }
+}
 @media screen and (max-width: 1023.99px) {
   .main-1-items,
 .main-2-items {
     display: flex !important;
     flex-direction: column !important;
+  }
+
+  .main-1 {
+    margin: 0 10%;
   }
 
   .main-2-items div {

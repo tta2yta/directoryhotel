@@ -59,6 +59,9 @@ footer {
   h2{
     color: $color-1;
   }
+  .main-1-item-1 {
+    margin-right: 200px;
+  }
  img {
    @include width-height(30px, 30px);
  }
@@ -119,12 +122,22 @@ footer {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .main-1-items div:first-child{
+    margin-right: 200px;
+  }
+}
+
 @media screen and (max-width: 1023.99px) {
   .main-1-items,
   .main-2-items {
     display: flex !important;
     flex-direction: column !important;
   }
+  .main-1 {
+    margin: 0 10%;
+  }
+
   .main-2-items div {
    width: 100% !important;
    text-align: center !important;
