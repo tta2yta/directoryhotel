@@ -55,5 +55,5 @@ Give a ⭐️ if you like this project!
 - <a href="https://www.stackoverflow.com/" target="_blank">Stackoverflow</a>
 - <a href="https://css-tricks.com/" target="_blank">CSS-TRICKS</a>
 =======
-# directoryschool
+# directoryhotel
 A website application that helps to search hotels.
