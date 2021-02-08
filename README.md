@@ -25,7 +25,7 @@ This project is a capstone project developed as a completion of HTML & CSS secti
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/tta2yta/directoryhotel/fca0b1764cffa3ec67b19afe4ebd70c1d8894f4e/index.html">Live version</a>
+<a href="https://rawcdn.githack.com/tta2yta/directoryhotel/7c15d27a7738dc484f03d8718d239485030be9d3/index.html">Live version</a>
 
 ## Author
 
