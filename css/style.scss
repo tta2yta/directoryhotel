@@ -112,8 +112,10 @@ footer {
   .btn-search{
     width: 80px;
   }
-  .details-res {
-    @include grid-dis-2fr()
+  .details {
+    .details-res {
+      @include grid-dis-2fr()
+    }
   }
 }
 
