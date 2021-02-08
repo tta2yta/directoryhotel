@@ -12,7 +12,7 @@ This project is a capstone project developed as a completion of HTML & CSS secti
 
 ## Mobile
 
-![screenshot](./images/readme-3.png)
+![screenshot](./images/readme-31.png)
 
 ## Built With
 
