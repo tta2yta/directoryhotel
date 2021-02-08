@@ -45,7 +45,8 @@ header {
 .main-2-items,
 footer,
 .search,
-.details {
+.details,
+.para-details {
   max-width: 1000px;
   @include marg-left-right(auto, auto );
 }
