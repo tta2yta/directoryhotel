@@ -1,6 +1,6 @@
 $myFont: helvetica, sans-serif;
 $myWidth: 100%;
-$color-1:#c73364;
+$color-1:#d25649;
 
 @mixin width-height($width, $height) {
   width: $width;
@@ -101,15 +101,15 @@ footer {
   }
 
   .bg-1 {
-    background-color: $color-1;
+    background-color: #e17f65;
   }
 
   .bg-2 {
-    background-color: #937dbe;
+    background-color: #98a4a5;
   }
 
   .bg-3 {
-    background-color: #5c32f5;
+    background-color: #509bd7;
   }
 }
 
