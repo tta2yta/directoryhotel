@@ -116,6 +116,12 @@ footer {
     .details-res {
       @include grid-dis-2fr()
     }
+    .internet {
+      @include width-height(20px, 20px)
+    }
+    i{
+      color: blue;
+    }
   }
 }
 
