@@ -8,7 +8,8 @@ header {
 
 .main-1-items,
 .main-2-items,
-footer {
+footer,
+.search {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -20,20 +21,22 @@ footer {
   background-color: black;
   color: white;
 }
-
 footer .footer-top-1 {
   display: grid;
   grid-template-columns: 47% 6% 47%;
   font-size: 14px;
 }
-
 footer i {
   color: white;
 }
-
 footer .footer-middle-sec {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.search-values form {
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 1024px) {
@@ -41,24 +44,19 @@ footer .footer-middle-sec {
     margin-right: 200px;
   }
 }
-
 .main-1 h2 {
   color: #d25649;
 }
-
 .main-1 .main-1-item-1 {
   margin-right: 200px;
 }
-
 .main-1 img {
   width: 30px;
   height: 30px;
 }
-
 .main-1 a {
   text-decoration: none;
 }
-
 .main-1 i {
   color: black;
 }
@@ -67,27 +65,21 @@ footer .footer-middle-sec {
   width: 200px;
   height: 200px;
 }
-
 .main-2 .btn-div {
   max-width: 120px;
 }
-
 .main-2 .btn-div-1 {
   max-width: 200px;
 }
-
 .main-2 .btn-div :hover {
   text-decoration: none;
 }
-
 .main-2 .bg-1 {
   background-color: #e17f65;
 }
-
 .main-2 .bg-2 {
   background-color: #98a4a5;
 }
-
 .main-2 .bg-3 {
   background-color: #509bd7;
 }
@@ -96,16 +88,13 @@ section.main-img-carsoul img {
   max-height: 500px;
   min-height: 500px;
 }
-
 section.main-img-carsoul input[type=text],
 section.main-img-carsoul input[type=submit] {
   height: 30px;
 }
-
 section.main-img-carsoul input[type=submit] {
   background-color: #d25649;
 }
-
 section.main-img-carsoul .search-sec {
   top: 150px;
   max-width: 700px;
@@ -118,7 +107,7 @@ section.main-img-carsoul .search-sec {
 
 @media screen and (max-width: 1023.99px) {
   .main-1-items,
-  .main-2-items {
+.main-2-items {
     display: flex !important;
     flex-direction: column !important;
   }
@@ -133,7 +122,7 @@ section.main-img-carsoul .search-sec {
   }
 
   .btn-div,
-  .btn-div-1 {
+.btn-div-1 {
     margin: 10px auto !important;
   }
 
@@ -145,8 +134,13 @@ section.main-img-carsoul .search-sec {
   .main-2-items-img {
     order: 0;
   }
-}
 
+  .search-values form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 20px;
+  }
+}
 @media screen and (max-width: 767.99px) {
   section.main-img-carsoul img {
     max-height: 700px;
@@ -171,11 +165,9 @@ section.main-img-carsoul .search-sec {
     flex-direction: column !important;
     font-size: 12px !important;
   }
-
   .footer-top-1 .footer-loc-icon {
     border: none !important;
   }
-
   .footer-top-1 i {
     border-radius: 50%;
     border: 1px solid;
@@ -189,8 +181,15 @@ section.main-img-carsoul .search-sec {
     display: grid;
     grid-template-columns: 1fr !important;
   }
-
   .footer-middle-sec form div {
     width: 100% !important;
   }
+
+  .search-values form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 20px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

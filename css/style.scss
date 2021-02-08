@@ -27,7 +27,8 @@ header {
 
 .main-1-items,
 .main-2-items,
-footer {
+footer,
+.search {
   max-width: 1000px;
 
   @include marg-left-right(auto, auto );
@@ -53,6 +54,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+.search-values form {
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 1024px) {
@@ -168,6 +174,12 @@ section.main-img-carsoul {
   .main-2-items-img {
     order: 0;
   }
+
+  .search-values form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 20px;
+  }
 }
 
 @media screen and (max-width: 767.99px) {
@@ -218,5 +230,11 @@ section.main-img-carsoul {
     form div {
       width: 100% !important;
     }
+  }
+
+  .search-values form {
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 30px 20px;
   }
 }
