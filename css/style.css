@@ -74,6 +74,12 @@ footer .footer-middle-sec {
 .details i {
   color: blue;
 }
+.details h2 {
+  color: #d25649;
+}
+.details h2 i {
+  color: #d25649;
+}
 
 .internet {
   width: 20px;
