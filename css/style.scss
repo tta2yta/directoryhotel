@@ -56,9 +56,24 @@ footer {
   }
 }
 
-.search-values form {
-  display: flex;
-  flex-direction: row;
+.search-values {
+
+  background-color: #eeeeee;
+   form {
+    display: flex;
+    flex-direction: row;
+  }
+ .btn-clear {
+   background-color: #e5ab5b;
+ }
+ .img-clear {
+   width: 30px;
+   height: 30px;
+   text-align: left;
+ }
+ label {
+   font-weight: bold;
+ }
 }
 
 @media screen and (min-width: 1024px) {
