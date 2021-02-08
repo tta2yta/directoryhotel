@@ -93,6 +93,7 @@ footer .footer-middle-sec {
 }
 .more-details a {
   color: black;
+  letter-spacing: 8px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -294,6 +295,10 @@ section.main-img-carsoul .search-sec {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+  }
+
+  .more-details a {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 566.99px) {

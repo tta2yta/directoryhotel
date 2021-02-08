@@ -121,6 +121,7 @@ h2 {
   background-color: #e2e2e2;
   a{
     color: black;
+    letter-spacing: 8px;
   }
 }
 
@@ -336,6 +337,9 @@ section.main-img-carsoul {
 }
 .contact-info {
   @include grid-dis-2fr()
+}
+.more-details a{
+  font-size: 20px;
 }
 }
 @media screen and (max-width: 566.99px) {
