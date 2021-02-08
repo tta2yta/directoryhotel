@@ -23,6 +23,12 @@ $color-1:#d25649;
     text-align: center;
 }
 
+@mixin grid-dis-2fr() {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
 .container-fluid {
   width: $myWidth;
 }
@@ -38,9 +44,9 @@ header {
 .main-1-items,
 .main-2-items,
 footer,
-.search {
+.search,
+.details {
   max-width: 1000px;
-
   @include marg-left-right(auto, auto );
 }
 
@@ -105,6 +111,9 @@ footer {
   }
   .btn-search{
     width: 80px;
+  }
+  .details-res {
+    @include grid-dis-2fr()
   }
 }
 
