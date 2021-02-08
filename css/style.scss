@@ -46,7 +46,8 @@ header {
 footer,
 .search,
 .details,
-.para-details {
+.para-details,
+.more-details {
   max-width: 1000px;
   @include marg-left-right(auto, auto );
 }
@@ -115,6 +116,12 @@ h2 {
 }
 .internet {
   @include width-height(20px, 20px)
+}
+.more-details {
+  background-color: #e2e2e2;
+  a{
+    color: black;
+  }
 }
 
 @media screen and (min-width: 1024px) {

@@ -16,7 +16,8 @@ header {
 footer,
 .search,
 .details,
-.para-details {
+.para-details,
+.more-details {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -85,6 +86,13 @@ footer .footer-middle-sec {
 .internet {
   width: 20px;
   height: 20px;
+}
+
+.more-details {
+  background-color: #e2e2e2;
+}
+.more-details a {
+  color: black;
 }
 
 @media screen and (min-width: 1024px) {
