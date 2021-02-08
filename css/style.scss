@@ -37,6 +37,9 @@ $color-1:#d25649;
   display: flex;
   flex-direction: row;
 }
+.color-1{
+  color: $color-1;
+}
 header {
   background-color: $color-1;
 }
@@ -47,7 +50,8 @@ footer,
 .search,
 .details,
 .para-details,
-.more-details {
+.more-details,
+.map {
   max-width: 1000px;
   @include marg-left-right(auto, auto );
 }
