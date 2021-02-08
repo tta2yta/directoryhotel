@@ -1,5 +1,10 @@
-#container-fluid {
+.container-fluid {
   width: 100%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 header {
@@ -51,6 +56,18 @@ footer .footer-middle-sec {
 }
 .search-values label {
   font-weight: bold;
+}
+
+.search-result {
+  justify-content: center;
+}
+.search-result img {
+  width: 250px;
+  height: 250px;
+}
+.search-result .resul-name {
+  top: 70px;
+  left: 40px;
 }
 
 @media screen and (min-width: 1024px) {
