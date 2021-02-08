@@ -54,3 +54,6 @@ Give a ⭐️ if you like this project!
 - <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>
 - <a href="https://www.stackoverflow.com/" target="_blank">Stackoverflow</a>
 - <a href="https://css-tricks.com/" target="_blank">CSS-TRICKS</a>
+=======
+# directoryschool
+A website application that helps to search hotels.
