@@ -71,6 +71,10 @@ footer .footer-middle-sec {
   left: 20%;
 }
 
+.details i {
+  color: blue;
+}
+
 .internet {
   width: 20px;
   height: 20px;
@@ -93,9 +97,6 @@ footer .footer-middle-sec {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-  }
-  .details i {
-    color: blue;
   }
 }
 .main-1 h2 {
@@ -273,9 +274,16 @@ section.main-img-carsoul .search-sec {
   .apply .btn-search {
     width: 200px;
   }
+
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 566.99px) {
-  .search-result {
+  .search-result,
+.contact-info {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;

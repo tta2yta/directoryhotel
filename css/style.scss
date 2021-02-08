@@ -101,6 +101,9 @@ footer {
     left: 20%;
   }
 }
+.details i {
+  color: blue;
+}
 .internet {
   @include width-height(20px, 20px)
 }
@@ -118,9 +121,6 @@ footer {
   .details {
     .details-res {
       @include grid-dis-2fr()
-    }
-    i{
-      color: blue;
     }
   }
 }
@@ -318,9 +318,13 @@ section.main-img-carsoul {
      width: 200px;
     }
 }
+.contact-info {
+  @include grid-dis-2fr()
+}
 }
 @media screen and (max-width: 566.99px) {
-  .search-result {
+  .search-result,
+  .contact-info {
     @include grid-dis-1fr()
   }
 }
