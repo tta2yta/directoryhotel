@@ -63,6 +63,9 @@ Feel free to check the <a href="https://github.com/tta2yta/directoryhotel/issues
 
 Give a ⭐️ if you like this project!
 
+## Video Link of the project
+<a href="https://www.loom.com/share/3d4f7d216ec94645bc178f106917c89c">Video Link</a>
+
 ## Acknowledgments
 
 - <a href="https://www.microverse.org/" target="_blank">microverse.org</a>
