@@ -39,6 +39,10 @@ footer .footer-top-1 {
   grid-template-columns: 47% 6% 47%;
   font-size: 14px;
 }
+footer .footer-top-1 .footer-loc-icon {
+  border: 1px solid;
+  border-radius: 50%;
+}
 footer i {
   color: white;
 }
@@ -259,9 +263,10 @@ section.main-img-carsoul .search-sec {
   }
 
   .footer-top-1 {
-    display: flex !important;
-    flex-direction: column !important;
-    font-size: 12px !important;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    text-align: center;
+    font-size: 12px;
   }
   .footer-top-1 .footer-loc-icon {
     border: none !important;
@@ -271,12 +276,13 @@ section.main-img-carsoul .search-sec {
     border: 1px solid;
     width: 50px;
     height: 50px;
-    text-align: center !important;
+    text-align: center;
   }
 
   .footer-middle-sec {
     display: grid;
     grid-template-columns: 1fr !important;
+    text-align: center;
   }
   .footer-middle-sec form div {
     width: 100% !important;
@@ -291,7 +297,7 @@ section.main-img-carsoul .search-sec {
 
   .details-res {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     text-align: center;
   }
 
@@ -316,14 +322,14 @@ section.main-img-carsoul .search-sec {
   .search-result,
 .contact-info {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     text-align: center;
   }
 }
 @media screen and (max-width: 470.99px) {
   .search-values form {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     text-align: center;
   }
 }
