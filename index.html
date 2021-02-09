@@ -62,7 +62,7 @@
                         <h5 class="pl-4">SEARCH BY KEYWORD:</h5>
                             <div class="d-sm-flex flex-sm-column d-md-flex flex-md-row pl-4 pr-5 w-100 w-md-100 w-lg-100">
                                 <div class=" w-100"> <input type="text" class="form-control w-100"></div>
-                                <div class=" w-sm-100"> <a href="search_results.html"><input type="button" class="form-control text-white w-100 pb-4" value="SEARCH"></a></div>
+                                <div class=" w-sm-100"><input type="button" id="btn-serch-j" class="form-control text-white w-100 pb-4" value="SEARCH"></div>
                             </div>
                     </form>
 
@@ -230,5 +230,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn-serch-j").click(function(){
+                location.href="search_results.html";
+            });
+        });                     
+    </script>
 </body>
 </html>

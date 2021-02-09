@@ -61,7 +61,7 @@ footer .footer-bottom-sec {
 }
 
 .search-values {
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 .search-values form {
   display: flex;
@@ -91,6 +91,23 @@ footer .footer-bottom-sec {
   left: 20%;
 }
 
+.main-1 h2 {
+  color: #d25649;
+}
+.main-1 .main-1-item-1 {
+  margin-right: 200px;
+}
+.main-1 img {
+  width: 30px;
+  height: 30px;
+}
+.main-1 a {
+  text-decoration: none;
+}
+.main-1 i {
+  color: black;
+}
+
 .details i {
   color: blue;
 }
@@ -112,23 +129,6 @@ footer .footer-bottom-sec {
 .more-details a {
   color: black;
   letter-spacing: 8px;
-}
-
-.main-1 h2 {
-  color: #d25649;
-}
-.main-1 .main-1-item-1 {
-  margin-right: 200px;
-}
-.main-1 img {
-  width: 30px;
-  height: 30px;
-}
-.main-1 a {
-  text-decoration: none;
-}
-.main-1 i {
-  color: black;
 }
 
 .main-2 img {
@@ -186,6 +186,10 @@ section.main-img-carsoul .search-sec h2 {
 .main-2-items-img {
   width: 30%;
   order: 1;
+}
+
+iframe {
+  border: 0;
 }
 
 @media screen and (min-width: 1024px) {

@@ -62,7 +62,7 @@
                         <h5 class="pl-4">SEARCH BY KEYWORD:</h5>
                             <div class="d-sm-flex flex-sm-column d-md-flex flex-md-row pl-4 pr-5 w-100 w-md-100 w-lg-100">
                                 <div class=" w-100"> <input type="text" class="form-control w-100"></div>
-                                <div class=" w-sm-100"> <a href="search_results.html"><input type="button" class="form-control text-white w-100 pb-4" value="SEARCH"></a></div>
+                                <div class=" w-sm-100"> <input type="button" id="btn-serch-j" class="form-control text-white w-100 pb-4" value="SEARCH"></div>
                             </div>
                     </form>
 
@@ -96,7 +96,7 @@
                     <i class="fas fa-bus"></i>TRANSPORT : YES
                 </div>
                 <div class="pr-3">
-                   <img class="internet" src="images/internet.png"></i>WEBSITE: ST.COM
+                   <img class="internet" src="images/internet.png" alt="internet">WEBSITE: ST.COM
                 </div>
                 <div class="pr-3">
                     <i class="far fa-question-circle"></i>CUSTOMER SUPPORT : YES
@@ -118,7 +118,7 @@
 
         <div class="d-flex flex-column map my-3 w-100">
             <h3 class="color-1 text-center my-4"> <i class="far fa-compass"></i>MAP DIRECTIONS</h3>
-            <iframe class="text-center mx-auto w-100" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d16279.971992728078!2d18.050583696148497!3d59.33301227623705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x465f763119640bcb%3A0xa80d27d3679d7766!2sStockholm%2C%20Sweden!3m2!1d59.329323499999994!2d18.0685808!4m5!1s0x465f9d69cdf65e5f%3A0xbc675c61ccbc08ec!2sBirger%20Jarlsgatan%2C%20Stockholm%2C%20Sweden!3m2!1d59.3413505!2d18.0655154!5e0!3m2!1sen!2sru!4v1612821533476!5m2!1sen!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe class="text-center mx-auto w-100" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d16279.971992728078!2d18.050583696148497!3d59.33301227623705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x465f763119640bcb%3A0xa80d27d3679d7766!2sStockholm%2C%20Sweden!3m2!1d59.329323499999994!2d18.0685808!4m5!1s0x465f9d69cdf65e5f%3A0xbc675c61ccbc08ec!2sBirger%20Jarlsgatan%2C%20Stockholm%2C%20Sweden!3m2!1d59.3413505!2d18.0655154!5e0!3m2!1sen!2sru!4v1612821533476!5m2!1sen!2sru" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
 
 
@@ -190,5 +190,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn-serch-j").click(function(){
+                location.href="search_results.html";
+            });
+        });                     
+    </script>
 </body>
 </html>

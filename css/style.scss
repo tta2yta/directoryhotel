@@ -20,13 +20,13 @@ $color-1:#d25649;
 @mixin grid-dis-1fr() {
   display: grid;
   grid-template-columns: 1fr !important;
-   text-align: center;
+  text-align: center;
 }
 
 @mixin grid-dis-2fr() {
   display: grid;
   grid-template-columns: 1fr 1fr;
-   text-align: center;
+  text-align: center;
 }
 
 .container-fluid {
@@ -37,9 +37,11 @@ $color-1:#d25649;
   display: flex;
   flex-direction: row;
 }
-.color-1{
+
+.color-1 {
   color: $color-1;
 }
+
 header {
   background-color: $color-1;
 }
@@ -53,6 +55,7 @@ footer,
 .more-details,
 .map {
   max-width: 1000px;
+
   @include marg-left-right(auto, auto );
 }
 
@@ -66,6 +69,7 @@ footer {
     display: grid;
     grid-template-columns: 47% 6% 47%;
     font-size: 14px;
+
     .footer-loc-icon {
       border: 1px solid;
       border-radius: 50%;
@@ -80,66 +84,53 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
-    input[type='submit']{
+    input[type='submit'] {
       background-color: #605f5f;
     }
-    p{
-     font-size: 10px;
+
+    p {
+      font-size: 10px;
     }
   }
+
   .footer-bottom-sec {
     background-color: #1f1f1f;
   }
 }
 
 .search-values {
-  background-color: #eeeeee;
-   form {
+  background-color: #eee;
+
+  form {
     display: flex;
     flex-direction: row;
   }
- .btn-clear {
-   background-color: #e5ab5b;
- }
- .img-clear {
-   width: 30px;
-   height: 30px;
-   text-align: left;
- }
- label {
-   font-weight: bold;
- }
+
+  .btn-clear {
+    background-color: #e5ab5b;
+  }
+
+  .img-clear {
+    width: 30px;
+    height: 30px;
+    text-align: left;
+  }
+
+  label {
+    font-weight: bold;
+  }
 }
 
 .search-result {
   justify-content: center;
+
   img {
     @include width-height(250px, 250px);
   }
+
   .resul-name {
-    top:70px;
+    top: 70px;
     left: 20%;
-  }
-}
-.details{
- i {
-  color: blue;
-}
-h2 {
-  color: $color-1;
-  i {
-    color: $color-1;
-  }
-}
-}
-.internet {
-  @include width-height(20px, 20px)
-}
-.more-details {
-  background-color: #e2e2e2;
-  a{
-    color: black;
-    letter-spacing: 8px;
   }
 }
 
@@ -162,6 +153,33 @@ h2 {
 
   i {
     color: black;
+  }
+}
+
+.details {
+  i {
+    color: blue;
+  }
+
+  h2 {
+    color: $color-1;
+
+    i {
+      color: $color-1;
+    }
+  }
+}
+
+.internet {
+  @include width-height(20px, 20px);
+}
+
+.more-details {
+  background-color: #e2e2e2;
+
+  a {
+    color: black;
+    letter-spacing: 8px;
   }
 }
 
@@ -218,7 +236,8 @@ section.main-img-carsoul {
     left: 25%;
     display: block;
     border-radius: 20px;
-    h2{
+
+    h2 {
       color: rgb(247, 239, 239);
     }
   }
@@ -233,19 +252,27 @@ section.main-img-carsoul {
   width: 30%;
   order: 1;
 }
+
+iframe {
+  border: 0;
+}
+
 @media screen and (min-width: 1024px) {
   .main-1-items div:first-child {
     margin-right: 200px;
   }
+
   .btn-clear {
     width: 120px;
   }
-  .btn-search{
+
+  .btn-search {
     width: 80px;
   }
+
   .details {
     .details-res {
-      @include grid-dis-2fr()
+      @include grid-dis-2fr();
     }
   }
 }
@@ -266,20 +293,22 @@ section.main-img-carsoul {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 30px 20px;
   }
+
   .search-result {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
   }
+
   .details-res {
-    @include grid-dis-2fr()
-  }
-  .apply {
-    .btn-search {
-     width: 100px;
-    }
+    @include grid-dis-2fr();
   }
 
+  .apply {
+    .btn-search {
+      width: 100px;
+    }
+  }
 }
 
 @media screen and (max-width: 767.99px) {
@@ -289,16 +318,17 @@ section.main-img-carsoul {
       min-height: 600px;
     }
   }
+
   .main-2-items-txt {
     width: $myWidth;
     order: 1;
   }
-  
+
   .main-2-items-img {
     width: $myWidth;
     order: 0;
   }
-  
+
   .btn-div,
   .btn-div-1 {
     margin: auto;
@@ -319,6 +349,7 @@ section.main-img-carsoul {
 
   .footer-top-1 {
     @include grid-dis-1fr();
+
     font-size: 12px;
 
     .footer-loc-icon {
@@ -349,31 +380,37 @@ section.main-img-carsoul {
     grid-template-columns: 1fr 1fr;
     padding: 30px 20px;
   }
+
   .details-res {
-    @include grid-dis-1fr()
+    @include grid-dis-1fr();
   }
+
   .apply {
     justify-content: center;
+
     .btn-search {
-     width: 200px;
+      width: 200px;
     }
+  }
+
+  .contact-info {
+    @include grid-dis-2fr();
+  }
+
+  .more-details a {
+    font-size: 20px;
+  }
 }
-.contact-info {
-  @include grid-dis-2fr()
-}
-.more-details a{
-  font-size: 20px;
-}
-}
+
 @media screen and (max-width: 566.99px) {
   .search-result,
   .contact-info {
-    @include grid-dis-1fr()
+    @include grid-dis-1fr();
   }
 }
 
 @media screen and (max-width: 470.99px) {
   .search-values form {
-  @include grid-dis-1fr()
+    @include grid-dis-1fr();
   }
 }
