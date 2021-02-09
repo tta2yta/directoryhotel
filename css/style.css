@@ -181,34 +181,25 @@ section.main-img-carsoul .search-sec {
   border-radius: 20px;
 }
 
+.main-2-items-txt {
+  width: 70%;
+  order: 0;
+}
+
+.main-2-items-img {
+  width: 30%;
+  order: 1;
+}
+
 @media screen and (max-width: 1023.99px) {
   .main-1-items,
 .main-2-items {
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
   }
 
   .main-1 {
     margin: 0 10%;
-  }
-
-  .main-2-items div {
-    width: 100% !important;
-    text-align: center !important;
-  }
-
-  .btn-div,
-.btn-div-1 {
-    margin: 10px auto !important;
-  }
-
-  .main-2-items-txt {
-    order: 1;
-    padding-top: 10px !important;
-  }
-
-  .main-2-items-img {
-    order: 0;
   }
 
   .search-values form {
@@ -237,6 +228,16 @@ section.main-img-carsoul .search-sec {
   section.main-img-carsoul img {
     max-height: 700px;
     min-height: 600px;
+  }
+
+  .main-2-items-txt {
+    width: 100%;
+    order: 1;
+  }
+
+  .main-2-items-img {
+    width: 100%;
+    order: 0;
   }
 
   .search-sec {
