@@ -19,7 +19,7 @@ $color-1:#d25649;
 
 @mixin grid-dis-1fr() {
   display: grid;
-  grid-template-columns: 1fr !important;
+  grid-template-columns: 1fr;
   text-align: center;
 }
 
@@ -64,33 +64,13 @@ footer {
 
   background-color: black;
   color: white;
-
-  .footer-top-1 {
-    display: grid;
-    grid-template-columns: 47% 6% 47%;
-    font-size: 14px;
-
-    .footer-loc-icon {
-      border: 1px solid;
-      border-radius: 50%;
-    }
+  
+  input[type='submit'] {
+    background-color: #605f5f;
   }
 
   i {
     color: white;
-  }
-
-  .footer-middle-sec {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    input[type='submit'] {
-      background-color: #605f5f;
-    }
-
-    p {
-      font-size: 10px;
-    }
   }
 
   .footer-bottom-sec {
@@ -228,19 +208,6 @@ section.main-img-carsoul {
     background-color: $color-1;
   }
 
-  .search-sec {
-    top: 150px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 25%;
-    display: block;
-    border-radius: 20px;
-
-    h2 {
-      color: rgb(247, 239, 239);
-    }
-  }
 }
 
 .main-2-items-txt {
@@ -311,7 +278,43 @@ iframe {
   }
 }
 
+@media screen and (min-width: 768px){
+  .footer-top-1 {
+    display: grid;
+    grid-template-columns: 47% 6% 47%;
+    font-size: 14px;
+    .footer-loc-icon {
+      border: 1px solid;
+      border-radius: 50%;
+    }
+  }
+  .footer-middle-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    p {
+      font-size: 10px;
+    }
+  } 
+  .search-sec {
+    top: 150px;
+    max-width: 800px;
+    margin: 0 30%;
+    border-radius: 20px;
+
+    h2 {
+      color: rgb(247, 239, 239);
+    }
+  }
+}
+
 @media screen and (max-width: 767.99px) {
+  .search-sec {
+    top: 150px;
+    margin: 0 5%;
+    h2 {
+      color: rgb(247, 239, 239);
+    }
+  }
   section.main-img-carsoul {
     img {
       max-height: 700px;
@@ -334,26 +337,16 @@ iframe {
     margin: auto;
   }
 
-  .search-sec {
-    top: 150px;
-    left: 0 !important;
-    width: $myWidth !important;
-    padding: 0 20px;
-    display: block;
-    border-radius: 20px;
-  }
-
   .how-it-work {
     min-width: 120px;
   }
 
   .footer-top-1 {
-    @include grid-dis-1fr();
 
     font-size: 12px;
 
     .footer-loc-icon {
-      border: none !important;
+      border: none;
     }
 
     i {
@@ -370,7 +363,7 @@ iframe {
     @include grid-dis-1fr();
 
     form div {
-      width: $myWidth !important;
+      min-width: $myWidth;
     }
   }
 
