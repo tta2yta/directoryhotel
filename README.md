@@ -27,6 +27,23 @@ This project is a capstone project developed as completion of the HTML & CSS sec
 
 <a href="https://rawcdn.githack.com/tta2yta/directoryhotel/20666fba4a5650c69458a98d6b9e58e5294232cc/details.html">Live version</a>
 
+### Setup
+
+
+To get a local copy up and running follow these simple example steps.
+
+- Go to https://github.com/tta2yta/directoryhotel
+- Click on code and copy the html code. 
+- Use git bash to clone this repository on your local machine. 
+- Run git checkout -b your-braanch-name Make your contributions 
+- Push your branch up to your forked repository 
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
+
+### Prerequisites 
+- VSCode
+- Github
+- Git
+
 ## Author
 
 👤 **Tedros Tesfay**
