@@ -150,10 +150,10 @@ section.main-img-carsoul img {
   min-height: 500px;
 }
 section.main-img-carsoul input[type=text],
-section.main-img-carsoul input[type=submit] {
+section.main-img-carsoul input[type=button] {
   height: 30px;
 }
-section.main-img-carsoul input[type=submit] {
+section.main-img-carsoul input[type=button] {
   background-color: #d25649;
 }
 section.main-img-carsoul .search-sec {
