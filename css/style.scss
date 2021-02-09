@@ -273,12 +273,12 @@ section.main-img-carsoul {
     }
   }
   .main-2-items-txt {
-    width: 100%;
+    width: $myWidth;
     order: 1;
   }
   
   .main-2-items-img {
-    width: 100%;
+    width: $myWidth;
     order: 0;
   }
   
@@ -290,7 +290,7 @@ section.main-img-carsoul {
   .search-sec {
     top: 150px;
     left: 0 !important;
-    width: 100% !important;
+    width: $myWidth !important;
     padding: 0 20px;
     display: block;
     border-radius: 20px;
@@ -324,7 +324,7 @@ section.main-img-carsoul {
     grid-template-columns: 1fr !important;
 
     form div {
-      width: 100% !important;
+      width: $myWidth !important;
     }
   }
 
