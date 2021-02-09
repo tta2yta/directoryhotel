@@ -64,7 +64,7 @@ footer {
 
   background-color: black;
   color: white;
-  
+
   input[type='submit'] {
     background-color: #605f5f;
   }
@@ -207,7 +207,6 @@ section.main-img-carsoul {
   input[type="button"] {
     background-color: $color-1;
   }
-
 }
 
 .main-2-items-txt {
@@ -278,23 +277,27 @@ iframe {
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .footer-top-1 {
     display: grid;
     grid-template-columns: 47% 6% 47%;
     font-size: 14px;
+
     .footer-loc-icon {
       border: 1px solid;
       border-radius: 50%;
     }
   }
+
   .footer-middle-sec {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
     p {
       font-size: 10px;
     }
-  } 
+  }
+
   .search-sec {
     top: 150px;
     max-width: 800px;
@@ -311,10 +314,12 @@ iframe {
   .search-sec {
     top: 150px;
     margin: 0 5%;
+
     h2 {
       color: rgb(247, 239, 239);
     }
   }
+
   section.main-img-carsoul {
     img {
       max-height: 700px;
@@ -342,7 +347,6 @@ iframe {
   }
 
   .footer-top-1 {
-
     font-size: 12px;
 
     .footer-loc-icon {
