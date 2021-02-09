@@ -79,6 +79,16 @@ footer {
   .footer-middle-sec {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+    input[type='submit']{
+      background-color: #605f5f;
+    }
+    p{
+     font-size: 10px;
+    }
+  }
+  .footer-bottom-sec {
+    background-color: #1f1f1f;
   }
 }
 
@@ -208,6 +218,9 @@ section.main-img-carsoul {
     left: 25%;
     display: block;
     border-radius: 20px;
+    h2{
+      color: rgb(247, 239, 239);
+    }
   }
 }
 

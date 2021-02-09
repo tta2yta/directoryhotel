@@ -50,6 +50,15 @@ footer .footer-middle-sec {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+footer .footer-middle-sec input[type=submit] {
+  background-color: #605f5f;
+}
+footer .footer-middle-sec p {
+  font-size: 10px;
+}
+footer .footer-bottom-sec {
+  background-color: #1f1f1f;
+}
 
 .search-values {
   background-color: #eeeeee;
@@ -164,6 +173,9 @@ section.main-img-carsoul .search-sec {
   left: 25%;
   display: block;
   border-radius: 20px;
+}
+section.main-img-carsoul .search-sec h2 {
+  color: #f7efef;
 }
 
 .main-2-items-txt {
