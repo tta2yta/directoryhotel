@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <main class="container-fluid px-0">
+        <header class="d-sm-flex flex-sm-column d-md-flex flex-md-row px-0 mx-0">
+            <div class="logo d-flex justify-content-center justify-content-lg-end mw-sm-100 mw-md-100">
+                <a href="index.html" ><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <nav class="nav-menu  justify-content-end pt-3 w-100">
+                <ul class="nav d-lg-flex justify-content-center justify-content-lg-end">
+                    <li class="nav-item">
+                       <a class="nav-link active text-white" href="#"> <i class="fas fa-search pl-3 pl-sm-5 pr-md-4 pr-lg-1"></i>
+                        <span class="d-none d-lg-inline">HOTELS</span> </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#"><i class="far fa-user pl-3 pl-sm-4 pr-md-4 pr-lg-1"></i>
+                        <span class="d-none d-lg-inline">ABOUT</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="fas fa-rss pl-3 pl-sm-4 pr-md-4 pr-lg-1"></i>
+                            <span class="d-none d-lg-inline">BLOG</span></a>
+                      </li>
+                      <li class="nav-item pr-5">
+                        <a class="nav-link text-white" href="#"><i class="fas fa-bars pl-3 pl-sm-4 pr-md-4 pr-lg-1"></i>
+                            <span class="d-none d-lg-inline">MORE...</span></a>
+                      </li>
+                  
+                  </ul>
+            </nav>
+        </header>
+
+        <section class="main-img-carsoul">
+            <div class="postion-relative">
+                <div class="carousel slide" data-ride="carousel" data-interval="3000">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="images/main-img-1.jpg" class="d-block w-100" alt="main-1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/main-img-2.jpg" class="d-block w-100" alt="main-2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/main-img-3.jpg" class="d-block w-100" alt="main-3">
+                      </div>
+                    </div>
+                  </div>
+                    
+                  <div class="w-100">
+
+                    <div class="search-sec  py-5 position-absolute">
+                        <h2 class="coursel-header text-center">
+                            Birger Jarl.... YOUR GATEWAY TO HOTELS IN SWEDEN </h2>
+                        <form method="GET" class="bg-light py-5 rounded" >
+                            <h5 class="pl-4">SEARCH BY KEYWORD:</h5>
+                                <div class="d-sm-flex flex-sm-column d-md-flex flex-md-row pl-4 pr-5 w-100 w-md-100 w-lg-100">
+                                    <div class=" w-100"> <input type="text" class="form-control w-100"></div>
+                                    <div class=" w-sm-100"><input type="button" id="btn-serch-j" class="form-control text-white w-100 pb-4" value="SEARCH"></div>
+                                </div>
+                        </form>
+    
+                        <div class="d-flex justify-content-center"> <input type="submit" class="how-it-work form-control bg-light mt-5 w-25 pb-4" value="How it works"></div>
+                      </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="search">
+                <div class="search-values py-5 mb-4 mt-5 pl-3">
+                    <h3 class="text-dark text-center mb-4">Filter by Name, country, city, type, level</h3>
+                    <form>
+                        <div class="form-group pr-1">
+                          <label>HOTEL NAME:*</label>
+                          <input type="text" class="form-control" name="hotelname">
+                        </div>
+                        <div class="form-group pr-1">
+                            <label>COUNTRY:</label>
+                            <select class="form-control" >
+                            <option>SWEDEN</option>
+                            <option>DENMARK</option>
+                            <option>US</option>
+                            <option>HOLLAND</option>
+                            </select>
+                        </div>
+                        <div class="form-group pr-1">
+                            <label>CITY:</label>
+                            <select class="form-control" >
+                            <option>STOCKOLOM</option>
+                            <option>PARIS</option>
+                            <option>NEWYORK</option>
+                            <option>CALIFORNIA</option>
+                            </select>
+                        </div>
+                        <div class="form-group pr-1">
+                            <label>TYPE:</label>
+                            <select class="form-control" >
+                            <option>FIVE STAR</option>
+                            <option>FOUR STAR</option>
+                            </select>
+                        </div>
+                        <div class="form-group pr-1">
+                            <label>PRICE RANGE:</label>
+                            <select class="form-control" >
+                            <option>100-300</option>
+                            <option>300-500</option>
+                            <option>600-1000</option>
+                            </select>
+                        </div>
+                        <div class="form-group pr-1">
+                            <label>-</label>
+                            <div class="d-flex flex-row">
+                                <button type="button" class=" btn-search form-control btn btn-primary mr-1 pl-0 ml-0">Search</button>
+                                <button type="button" class=" btn-clear form-control btn btn-primary pl-0"><i class="far fa-envelope pr-2"></i>Clear Filter</button>
+                            </div>
+                           
+                        </div>
+                    </form>
+                      
+                        
+                </div>
+                <div class="mt-5">
+                    <h3 class="text-dark text-center my-4 d-block">Search Results Found 3 Hotel(s)</h3>
+                    <div class="search-result flex-row px-5 mb-5">
+                       
+                        <div class="position-relative pr-3 mb-4">
+                            <a href="details.html">
+                                <img src="images/main-img-1.jpg" alt="" >
+                                <h5 class="resul-name position-absolute text-white">Name: Berl nice</h5>
+                            </a>
+                         
+                        </div>
+    
+                        <div class="position-relative pr-3 mb-4">
+                            <a href="details.html">
+                                <img src="images/main-img-2.jpg" alt="" >
+                                <h5 class="resul-name position-absolute text-white">Name: Ted best</h5>
+                            </a>
+                         
+                        </div>
+    
+                        <div class="position-relative pr-3 mb-4">
+                            <a href="details.html">
+                                <img src="images/main-img-3.jpg" alt="" >
+                                <h5 class="resul-name position-absolute text-white">Name: Top nice</h5>
+                            </a>
+                         
+                        </div>
+    
+                    </div>
+                </div>
+         
+
+        </section>
+
+       
+
+        <footer class="">
+            <div class="footer-top-1 pt-4">
+                <nav class="nav justify-content-center justify-content-md-end pt-md-2 mx-md-0 px-md-0">
+                    <a class="nav-link border-top border-bottom text-white border-dark" href="#">HOME</a>
+                    <a class="nav-link border-top border-bottom text-white  border-dark" href="#">SEARCH</a>
+                    <a class="nav-link border-top border-bottom text-white  border-dark" href="#">ABOUT US</a>
+                    <a class="nav-link border-top border-bottom text-white  border-dark" href="#">ADVERTISE</a>
+                  </nav>
+                  <div class="footer-loc-icon nav justify-content-center justify-content-md-center p-md-2 ml-md-0">
+                     <a href="#"><i class="fas fa-map-marker-alt fa-2x pt-2"></i></a> </div>
+                  <nav class="nav justify-content-center justify-content-md-start pt-md-2 w-100">
+                    <a class="nav-link border-top border-bottom text-white  border-dark" href="#">FACEBOOK</a>
+                    <a class="nav-link border-top border-bottom text-white  border-dark" href="#">TWITTER</a>
+                    <a class="nav-link border-top border-bottom text-white  border-dark" href="#">BLOG</a>
+                    <a class="nav-link border-top border-bottom text-white  border-dark" href="#">GOOGLE+</a>
+                  </nav>
+
+            </div>
+            <div class="footer-middle-sec mt-2 pb-0 mb-0">
+                <div class="">
+                    <form method="GET" class="py-3 pt-md-4" >
+                        <h5 class="pl-4 text-center pb-2">SUBSCRIBE</h5>
+                            <div class="d-sm-flex flex-sm-column  d-md-flex flex-md-row px-5 pl-md-4 w-100 w-md-100 w-lg-100">
+                                <div class="subs-txt w-75"> <input type="text"  class="form-control w-100" placeholder="Email Address"></div>
+                                <div class="subs-btn w-25"> <input type="submit" class="form-control text-white w-100 pb-4" value="send" style="background-color: #605f5f;"></div>
+                            </div>
+                    </form>
+                  </div>
+                <div class="py-3 pt-md-4">
+                    <h5 class="pl-4 text-center pb-1">CONTACT</h5>
+                    <p class="text-center pb-0 mb-0" >Here a question or comment</p>
+                    <p class="text-center text-danger pb-0 mb-0" ><a href="#" class="text-danger">info@hotel.com</a></p>
+                </div>
+                <div class="py-3 pt-md-4 pb-md-0">
+                    <h5 class="pl-4 text-center pb-1">ABOUT</h5>
+                    <p class="text-center mb-md-0 px-5 pr-md-3">Birger Jarl is one of the best hotels agents located in Sweden city.
+                        we have afflations with differnt peoples and organizations. We are always ready to give better service to our customers.
+                         <a href="#" class="text-danger">Learn More...</a>
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div class="footer-bottom-sec border-dark py-3">
+                <div class="row  mw-100  p-0 mr-0">
+                    <div class="col-12 col-md-4 text-center text-md-left">
+                       <a href="#"> <i class="fab fa-facebook-f pl-3"></i></a>
+                       <a href="#"> <i class="fab fa-twitter pl-2"></i></a>
+                        <a href="#"><i class="fab fa-instagram pl-2"></i></a> 
+                        <a href="#"><i class="far fa-envelope pl-2"></i></a> 
+                        <a href="#"><i class="fab fa-linkedin-in pl-2"></i></a> 
+                    </div>
+                    <div class="col-12 col-md-8 text-center">
+                        © 2020 BirgerJarl HOTEL ALL RIGHTS RESERVED
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
